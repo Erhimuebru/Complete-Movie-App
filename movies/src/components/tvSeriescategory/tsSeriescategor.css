@@ -20,7 +20,7 @@ li{
 }
 
 .div{
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-name: slidein;
     animation-iteration-count: 1;
     animation-direction: normal;
@@ -45,7 +45,7 @@ li{
 
 
 .ul-div{
-    animation-duration: 20s;
+    animation-duration: 7s;
     animation-name: slidein;
     animation-iteration-count: 1;
     animation-direction: normal;
