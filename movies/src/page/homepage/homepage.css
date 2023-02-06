@@ -1,0 +1,63 @@
+.movie-div{
+  grid-template-columns: repeat(4,1fr);
+    display: grid;
+    margin-top: 0;
+    background-color: black;
+    padding-left: 4rem;
+    padding-right:4rem;
+}
+
+.movie-di{
+    width: 19rem;
+    height: 27rem;
+    font-weight: bolder;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    margin-top: 1.6rem;
+    border: none; 
+    margin-left: 1rem;
+  background-color:rgb(22,22,22);
+  color: white;
+}
+
+.movie-img{
+     width: 16.5rem;
+  height: 21rem;
+  border: none;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+}
+
+
+
+.movie-title{
+    color: white;
+    font-size: 1.5rem;
+   text-align: center;
+   margin-top: -0.01rem;
+}
+
+.movie-di:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(0.5);
+    transform: scale(1.02);
+    transition: all .2s ease-out
+}
+
+.paginationBttns{
+  width:80% ;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10rem;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin:8px;
+  border-radius: 5px;
+  color: #00889a;
+  cursor: pointer
+}

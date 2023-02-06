@@ -1,0 +1,45 @@
+li{
+    color: white;
+    background-color:rgb(22,22,22); 
+    margin: 1em;
+    padding: 5px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.ul{
+    display: flex;
+  outline: none;
+  list-style-type: none;
+
+}
+
+.ul-div{
+    margin-top: -2.5rem;
+}
+
+
+.div{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    cursor: pointer;
+}
+.div:hover{
+  color:  #00889a;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      /* width: 300%; */
+    }
+  
+    to {
+      margin-left: 0%;
+      /* width: 100%; */
+    }
+  }
